@@ -1,0 +1,18 @@
+{
+  "name": "baseball-hq",
+  "version": "1.0.0",
+  "description": "Baseball HQ module",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Sean Maida",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "express": "^4.21.2",
+    "mlb-stats-api": "^1.10.0"
+  }
+}
